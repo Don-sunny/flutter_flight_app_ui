@@ -3,7 +3,7 @@ import 'package:flight_app_ui/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
           ),
 
       /// SPLASH SCREEN
-      home: const SplashScreen(),
+      home: SplashScreen(),
     );
   }
 }
